@@ -1,11 +1,11 @@
-"use client";
-import type { AppProps } from "next/app";
-import Register from "./(auth)/register/page";
+"use client"
 
-export default function App({ Component, pageProps }: AppProps) {
+import Login from "./(auth)/login/page"; // Ajuste o caminho conforme sua estrutura
+
+export default function HomePage() {
   return (
-    <div>
-      <Register/>
-    </div>
-  );
+    <main>
+      <Login />
+    </main>
+  )
 }
